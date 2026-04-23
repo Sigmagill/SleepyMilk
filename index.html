@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sleepy Milk</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet " href="style.css">
+
+</head>
+<body>
+
+<!-- NAV -->
+<nav id="navbar">
+  <div class="nav-logo">Sleepy<span>Milk</span></div>
+  <a href="#" class="nav-cta" onclick="openModal()">Lihat Produk →</a>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-blob"></div>
+  <div class="hero-content">
+    <div class="hero-badge">Smart Sleep Solution</div>
+    <h1>Better Sleep Less <em>Overthinking</em><br>More Energy</h1>
+    <p>SleepyMilk hadir sebagai minuman herbal yang membantu kamu tidur lebih cepat dan meningkatkan kualitas istirahat.
+       Dirancang khusus untuk mahasiswa dan pekerja yang sering mengalami kesulitan tidur akibat stres dan aktivitas padat.</p>
+    <div class="hero-btns">
+      <a href="#product" class="btn-primary">🍽️ Lihat Produk</a>
+      <a href="#how" class="btn-secondary">Cara Kerja →</a>
+    </div>
+  </div>
+
+  <!-- Phone mockup -->
+  <div class="hero-visual">
+    <div class="phone-wrap">
+      <div class="phone-frame">
+        <div class="phone-screen">
+          <div class="ps-topbar">
+            <span class="ps-topbar-title">SleepyMilk · Product</span>
+            <div class="ps-topbar-icon"></div>
+          </div>
+          <div class="ps-img-area">
+            <span class="ps-emoji">🥗</span>
+          </div>
+          <div class="ps-bottom">
+            <div class="ps-dish-name">SleepyMilk Original</div>
+            <div class="ps-dish-sub">Menenangkan Pikiran · Membantu Tidur</div>
+            <div class="ps-tags">
+              <span class="ps-tag">Natural</span>
+              <span class="ps-tag">Relaxing</span>
+              <span class="ps-tag">Herbal</span>
+            </div>
+            <button class="ps-btn">Lihat Resep →</button>
+          </div>
+        </div>
+      </div>
+      <div class="phone-float-badge badge-left">
+        <div class="badge-dot"></div> Better Sleep Experience
+      </div>
+      <div class="phone-float-badge badge-right">
+        <div class="badge-dot gold"></div> Backed by Real Users
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- STATS -->
+<div class="stats-bar">
+  <div class="stat"><div class="stat-num">User Testing</div><div class="stat-label">Dilakukan ke Mahasiswa & Pekerja</div></div>
+  <div class="stat"><div class="stat-num">Feedback Nyata</div><div class="stat-label">Digunakan untuk Evaluasi</div></div>
+  <div class="stat"><div class="stat-num">Literasi Produk</div><div class="stat-label">Berdasarkan Data</div></div>
+  <div class="stat"><div class="stat-num">Fokus Utama</div><div class="stat-label">Manfaat ke Pembeli</div></div>
+</div>
+
+<!-- PRODUCT -->
+<section class="section product-section" id="product">
+  <div class="product-grid">
+    <!-- Card -->
+    <div class="product-card" onclick="openModal()">
+      <div class="pc-img">
+        <div class="pc-img-ring r1"></div>
+        <div class="pc-img-ring r2"></div>
+        <span class="pc-img-emoji">🍱</span>
+      </div>
+      <div class="pc-body">
+        <span class="pc-category">✦ SleMilk App</span>
+        <div class="pc-name">Sleepy Milk · Smart Sleep Solution</div>
+        <div class="pc-desc">Aplikasi perencanaan menu harian berbasis AI yang membantu kamu makan lebih sehat, hemat waktu, dan tetap on-track dengan tujuan gizimu.</div>
+        <!-- <div class="pc-meta">
+          <div class="pc-meta-item"><span class="pc-meta-icon">📱</span> iOS & Android</div>
+          <div class="pc-meta-item"><span class="pc-meta-icon">🆓</span> Gratis Dasar</div>
+          <div class="pc-meta-item"><span class="pc-meta-icon">🔄</span> Update Rutin</div>
+        </div>
+        <div class="pc-actions"> -->
+          <button class="pc-btn-detail" onclick="event.stopPropagation();openModal()">📋 Lihat Deskripsi</button>
+          <a href="https://mkwu.id" target="_blank" class="pc-btn-visit" onclick="event.stopPropagation()">Kunjungi ↗</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Info side -->
+    <div class="product-info-side">
+      <div class="section-label">Kenapa Sleepy Milk?</div>
+      <h2 class="section-title">Fitur yang<br>Membuat Bedanya</h2>
+      <ul class="feature-list">
+        <li class="feature-item">
+          <div class="fi-icon">🌿</div>
+          <div class="fi-text">
+            <h4>Herbal & Non-Kafein</h4>
+            <p>Membantu menenangkan pikiran dan tubuh sebelum tidur tanpa kandungan kafein dan Aman dikonsumsi sebelum tidur tanpa gangguan.</p>
+          </div>
+        </li>
+        <li class="feature-item">
+          <div class="fi-icon">🧠</div>
+          <div class="fi-text">
+            <h4>Mengurangi Overthinking</h4>
+            <p>Membantu tubuh masuk ke kondisi rileks lebih cepat.</p>
+          </div>
+        </li>
+        <li class="feature-item">
+          <div class="fi-icon">📈</div>
+          <div class="fi-text">
+            <h4>Data-Driven Product</h4>
+            <p>Pengembangan produk berdasarkan data & feedback user.</p>
+          </div>
+        </li>
+        <li class="feature-item">
+          <div class="fi-icon">🔄</div>
+          <div class="fi-text">
+            <h4>Built for Better Sleep</h4>
+            <p>Fokus utama: bantu kamu tidur lebih cepat & lebih nyenyak.</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- HOW IT WORKS -->
+<section class="section how-section" id="how">
+  <div class="section-label">Cara Kerja</div>
+  <h2 class="section-title" style="color:#fff;">Mulai dalam<br>3 Langkah Mudah</h2>
+  <div class="steps-grid">
+    <div class="step">
+      <div class="step-num">01</div>
+      <h3>Pesan produk</h3>
+      <p>Pilih varian SleepyMilk sesuai preferensimu.</p>
+    </div>
+    <div class="step">
+      <div class="step-num">02</div>
+      <h3>Konsumsi Sebelum Tidur</h3>
+      <p>Minum untuk membantu tubuh lebih rileks dan siap beristirahat.</p>
+    </div>
+    <div class="step">
+      <div class="step-num">03</div>
+      <h3>Rasakan Manfaatnya</h3>
+      <p>Tidur lebih cepat dan bangun lebih segar.</p>
+    </div>
+    <div class="step">
+      <div class="step-num">04</div>
+      <h3>Berikan Feedback</h3>
+      <p>Masukan dari kamu digunakan untuk meningkatkan kualitas produk.</p>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-section">
+  <h2 class="section-title">Siap Tidur Lebih Nyenyak?</h2>
+  <p class="section-desc">Rasakan manfaat SleepyMilk mulai malam ini.</p>
+  <a href="https://mkwu.id" target="_blank" class="cta-btn">🚀 Coba Sekarang</a>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-logo">Sleepy<span>Milk</span></div>
+  <div class="footer-copy">© 2026 MKWU · Smart Milk · All rights from NumpakTya</div>
+</footer>
+
+<!-- MODAL -->
+<div class="modal-overlay" id="modalOverlay" onclick="closeModal(event)">
+  <div class="modal" id="modal">
+    <button class="modal-close" onclick="closeModal(null, true)">✕</button>
+    <span class="modal-badge">✦ smart Milk</span>
+    <h2>SleepyMilk – Smart Sleep Solution</h2>
+    <div class="modal-img">
+      <div class="modal-img-ring"></div>
+      🍱
+    </div>
+    <p>
+      <strong>SleepyMilk</strong> adalah minuman herbal yang dirancang untuk membantu kamu tidur lebih cepat dan bangun dengan tubuh yang lebih segar.
+    </p>
+    <p>
+      Dikembangkan melalui pendekatan MVP berbasis data, SleepyMilk berfokus pada manfaat nyata dari pengalaman pengguna — bukan sekadar konsep.
+    </p>
+    <div class="modal-features">
+      <span class="modal-tag">🌿 Herbal & Natural</span>
+      <span class="modal-tag">😴 Membantu Tidur Lebih Cepat</span>
+      <span class="modal-tag">📊 Berbasis Feedback User</span>
+      <span class="modal-tag">🧠 Simple & Effective</span>
+      <span class="modal-tag">🔁 Terus Ditingkatkan</span>
+    </div>
+    <div class="modal-actions">
+      <a href="https://mkwu.id" target="_blank" class="modal-btn-visit">🚀 Coba SleepyMilk Sekarang</a>
+      <button class="modal-btn-cancel" onclick="closeModal(null,true)">Tutup</button>
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
